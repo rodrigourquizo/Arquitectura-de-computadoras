@@ -1,0 +1,22 @@
+Items d) y e) - Fase de grupos: 
+Lista de clasificados(async)
+GSW DEN NYK LAC SAC SEA PHX HOU
+Tiempo de ejecucion: 0.3153152999948361 s
+
+Lista de clasificados(sync)
+GSW DEN NYK LAC SAC SEA PHX HOU
+Tiempo de ejecucion: 10.837545900001714 s
+
+En la funcion grupos el tiempo de ejecucion asincrono es menor que el tiempo de ejecucion sincrono
+
+Items f) y g) - Eliminatorias:
+Podio(async): 1er lugar, 2do lugar, 3er lugar
+NYK HOU SEA
+Tiempo de ejecucion: 0.604540200001793 s
+
+Podio(sync): 1er lugar, 2do lugar, 3er lugar
+LAC NYK SAC
+Tiempo de ejecucion: 1.2056475999997929 s
+
+En la funcion eliminatorias el tiempo de ejecucion asincrono es menor que el tiempo de ejecucion sincrono
+
