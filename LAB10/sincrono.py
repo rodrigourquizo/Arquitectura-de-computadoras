@@ -17,8 +17,7 @@ def getArray(N=3):
 def pto_medio(v1,v2):
     return [(v1[0] + v2[0])/2,(v1[1] + v2[1])/2,(v1[2] + v2[2])/2 ]
     
-def punto_medio_total(l):
-    arreglo = l[0]
+def punto_medio_total(arreglo):
     while(len(arreglo)>1):
         i=0
         new = []
@@ -43,7 +42,7 @@ if __name__=="__main__":
 
     ti = time.perf_counter()
     p = Pool(processes=7)
-    p.map(punto_medio_total, [[getArray(800000),1],[getArray(800000),2],[getArray(800000),3],[getArray(800000),4],[getArray(800000),5],[getArray(800000),6],[getArray(777),7] ])
+    p.map(punto_medio_total, [getArray(800000),getArray(800000),getArray(800000),getArray(800000),getArray(800000),getArray(800000),getArray(800000)])
     #print(current_process().pid)
     p.close()
     p.join()
