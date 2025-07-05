@@ -1,2 +1,2 @@
-# Arquitectura_de_computadoras
-Labs de arqui del ciclo 2022-2
+# Computer Architecture for Electronics Engineering 
+Laboratory evaluations from the 2022-2 semester
